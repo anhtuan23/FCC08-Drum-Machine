@@ -2,7 +2,9 @@
   "name": "fcc08-drum-machine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anhtuan23.github.io/FCC08-Drum-Machine/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -12,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
