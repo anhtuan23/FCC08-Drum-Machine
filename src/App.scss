@@ -29,19 +29,20 @@
     align-items: center;
     justify-content: center;
     color: black;
+    user-select: none;  
   }
   .drum-pad:hover{
     $light-white: rgb(202, 202, 202);
     border: 2px solid $light-white;
     color: $light-white;
   }
-  .drum-pad:active{
-    background-color: #6e788d;
-  }
 }
 
-#controller {
+#display {
   flex-grow: 1;
   flex-basis: 200px;
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
 }
